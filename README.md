@@ -40,9 +40,11 @@ Parameters are
 
 Some examples below
 
+````
 ruby chef_node_matrix.rb --row chef_environment --col chef_packages.chef.version
 ruby chef_node_matrix.rb --row chef_environment --col "platform,platform_version"
 ruby chef_node_matrix.rb --row platform --col platform_version
+````
 
 If providing more than one attribute per axis then seperate the attribute path with a comma.
 
