@@ -33,7 +33,7 @@ Then use myapp.mysettings.version, the program uses the attribute value as a row
 Parameters are
 
  Parameter                                          |  Description                                | Default        
---------------------------------------------------------------------------------------------------|---------------------
+----------------------------------------------------|---------------------------------------------|---------------------
 `-c <config_file> or --config <config_file>`        | Location of the Chef configuration file     | `~/.chef/knife.rb` 
 `--row <attributes>`                                | Attributes used for matrix row              | `none`
 `--col <attributes>`                                | Attributes used for matrix column           | `none`
